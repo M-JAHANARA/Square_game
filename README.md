@@ -1,189 +1,151 @@
-::: {align="center"}
-`<img src="https://readme-typing-svg.demolab.com?font=Orbitron&weight=700&size=34&duration=2600&pause=900&color=2DEBEF&center=true&vCenter=true&width=500&lines=SQUARE;NEON+ARCADE+PLATFORMER;JUMP.+COLLECT.+SURVIVE." alt="SQUARE animated title" />`{=html}
+ <div align="center">
 
-```{=html}
-<p>
+<img src="https://readme-typing-svg.demolab.com?font=Orbitron&weight=700&size=38&duration=2600&pause=900&color=2DEBEF&center=true&vCenter=true&width=550&lines=SQUARE+GAME;TWO+PLATFORMS;ONE+GAME+EXPERIENCE" alt="Square Game Animated Title" />
+
+### A Game Project for Android & Python
+
+**One project. Two platforms. Different ways to play.**
+
+<img src="https://img.shields.io/badge/Project-SQUARE-2DEBEF?style=for-the-badge" />
+<img src="https://img.shields.io/badge/Platforms-Android%20%7C%20Python-8B5CF6?style=for-the-badge" />
+<img src="https://img.shields.io/badge/Status-In%20Development-EB4FA8?style=for-the-badge" />
+
+[Explore Android](./Android/) · [Explore Python](./Python/) · [Report Issues](../../issues)
+
+</div>
+
+---
+
+## 🎮 About The Project
+
+**Square Game** is a game development project organized into two separate platform directories: Android and Python.
+
+The repository brings both implementations together in one place, making it easier to explore, maintain, and develop the project across different environments.
+
+The goal is to build a consistent game experience while keeping each platform's implementation organized independently.
+
+## 📱 Project Editions
+
+<table>
+<tr>
+<td width="50%" align="center">
+
+### 🤖 Android
+
+A dedicated Android implementation of Square Game.
+
+[**Explore Android →**](./Android/)
+
+</td>
+<td width="50%" align="center">
+
+### 🐍 Python
+
+A Python implementation of Square Game.
+
+[**Explore Python →**](./Python/)
+
+</td>
+</tr>
+</table>
+
+## 🧩 Repository Structure
+
+```text
+Square_game/
+│
+├── Android/
+│   └── Android implementation
+│
+├── Python/
+│   └── Python implementation
+│
+└── README.md
 ```
-`<strong>`{=html}A neon-styled arcade platformer built with Python and
-Pygame.`</strong>`{=html}`<br>`{=html} Cyan squares, glowing platforms,
-collectible coins, and an endless climb through a dark neon world.
-```{=html}
-</p>
-```
-```{=html}
-<p>
-```
-`<img src="https://img.shields.io/badge/Python-3.10%2B-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python 3.10+" />`{=html}
-`<img src="https://img.shields.io/badge/Engine-Pygame-43B047?style=for-the-badge" alt="Pygame" />`{=html}
-`<img src="https://img.shields.io/badge/Style-Neon%20Arcade-EB4FA8?style=for-the-badge" alt="Neon arcade" />`{=html}
-`<img src="https://img.shields.io/badge/Status-Prototype-8B5CF6?style=for-the-badge" alt="Prototype" />`{=html}
-```{=html}
-</p>
-```
-`<a href="#-getting-started">`{=html}Get Started`</a>`{=html} ·
-`<a href="#-controls">`{=html}Controls`</a>`{=html} ·
-`<a href="#-features">`{=html}Features`</a>`{=html} ·
-`<a href="#-roadmap">`{=html}Roadmap`</a>`{=html}
-:::
 
-------------------------------------------------------------------------
+Each directory contains the files associated with its respective implementation.
 
-## ✨ About
+## 🛠️ Technologies
 
-**SQUARE** is a small arcade platformer project focused on a clean,
-responsive game window and a retro-futuristic neon look. The player
-controls a glowing cyan square, jumps between colored platforms,
-collects coins, and tries to reach a higher score.
-
-The game is drawn with Pygame primitives. It does not need external
-image or audio assets.
-
-## 🎮 Features
-
--   Neon-inspired interface with cyan, pink, and purple accents.
--   Main menu, gameplay, pause overlay, and game-over screen.
--   Jumping and horizontal movement.
--   Static and moving platforms.
--   Collectible coins and score tracking.
--   Two lives per run.
--   Best score saved locally in the user's home directory.
--   Resizable window and fullscreen mode.
--   Aspect-ratio-preserving scaling to avoid stretching the game scene.
-
-## 🖥️ Preview
-
-> Add screenshots or a gameplay GIF here when you have them. For
-> example:
->
-> `assets/square-menu.png` · `assets/square-gameplay.gif`
-
-::: {align="center"}
-`<sub>`{=html}Designed around a dark purple background and bright neon
-geometry.`</sub>`{=html}
-:::
+| Technology | Purpose |
+|---|---|
+| Python | Python game implementation |
+| Android | Android platform implementation |
+| Git & GitHub | Version control and project hosting |
 
 ## 🚀 Getting Started
 
-### Requirements
+### 1. Clone the Repository
 
--   Python **3.10 or newer**
--   pip
--   A desktop environment supported by Pygame
-
-### 1. Clone the project
-
-``` bash
-git clone https://github.com/M-JAHANARA/SQUARE.git
-cd SQUARE
+```bash
+git clone https://github.com/M-JAHANARA/Square_game.git
 ```
 
-> If your GitHub repository uses a different name or URL, replace the
-> clone address with your repository URL.
+### 2. Enter the Project Directory
 
-### 2. Install Pygame
-
-``` bash
-python -m pip install pygame
+```bash
+cd Square_game
 ```
 
-### 3. Run the game
+### 3. Choose Your Platform
 
-``` bash
-python square.py
+For the Android implementation:
+
+```bash
+cd Android
 ```
 
-On some systems, use `python3` instead of `python`.
+For the Python implementation:
 
-## ⌨️ Controls
-
-  Key                   Action
-  --------------------- -------------------------
-  `A` / `←`             Move left
-  `D` / `→`             Move right
-  `SPACE` / `↑` / `W`   Jump
-  `ESC` / `P`           Pause or resume
-  `ENTER`               Start or restart
-  `F11`                 Toggle fullscreen
-  `R`                   Restart after game over
-
-## 🧩 Project Structure
-
-``` text
-SQUARE/
-├── square.py       # Game code
-└── README.md       # Project documentation
+```bash
+cd Python
 ```
 
-The current implementation is intentionally self-contained. Game
-objects, drawing, input handling, scoring, and the main loop are all in
-`square.py`.
+Follow the instructions and requirements provided by each implementation.
 
-## 💾 Save Data
+## 📁 Project Organization
 
-The best score is stored locally in:
+The project uses a platform-based structure to keep the Android and Python implementations separate.
 
-``` text
-~/.square_arcade_save.json
-```
-
-This file is created automatically when a new best score is achieved. It
-is not uploaded to GitHub.
-
-## 🛠️ Built With
-
--   [Python](https://www.python.org/) --- programming language
--   [Pygame](https://www.pygame.org/) --- game window, input, timing,
-    and 2D drawing
--   [Shields.io](https://shields.io/) --- dynamic project badges
--   [GitHub Readme
-    Stats](https://github.com/anuraghazra/github-readme-stats) --- live
-    GitHub profile statistics
-
-## 🗺️ Roadmap
-
--   [ ] Add touch controls for mobile devices.
--   [ ] Make the menu tiles open dedicated screens.
--   [ ] Add sound effects and background music.
--   [ ] Add more levels, platform patterns, and obstacles.
--   [ ] Add visual effects and smoother character animations.
--   [ ] Add automated gameplay and collision tests.
--   [ ] Package desktop builds for easier installation.
+This organization makes future improvements and maintenance easier without mixing platform-specific files.
 
 ## 📊 GitHub Statistics
 
-::: {align="center"}
-`<img height="165" src="https://github-readme-stats.vercel.app/api?username=M-JAHANARA&show_icons=true&hide_border=true&theme=tokyonight&rank_icon=github" alt="GitHub profile statistics" />`{=html}
-`<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=M-JAHANARA&layout=compact&hide_border=true&theme=tokyonight" alt="Most used languages" />`{=html}
+<div align="center">
 
-`<img width="95%" src="https://github-readme-activity-graph.vercel.app/graph?username=M-JAHANARA&theme=tokyo-night&hide_border=true" alt="GitHub contribution activity graph" />`{=html}
-:::
+<img height="165" src="https://github-readme-stats.vercel.app/api/pin/?username=M-JAHANARA&repo=Square_game&theme=tokyonight&hide_border=true" />
 
-`<sub>`{=html}These cards load data from third-party services and may
-occasionally be unavailable or rate-limited.`</sub>`{=html}
+<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=M-JAHANARA&layout=compact&theme=tokyonight&hide_border=true" />
 
-## 🤝 Contributing
+</div>
 
-Suggestions, bug reports, and improvements are welcome. If you find an
-issue, please open a GitHub issue with:
+## 🗺️ Roadmap
 
-1.  A short description of the problem.
-2.  Steps to reproduce it.
-3.  Your operating system and Python version.
-4.  The full error message, if one appears.
+- [ ] Complete and improve the Android implementation.
+- [ ] Improve the Python implementation.
+- [ ] Maintain feature consistency across platforms.
+- [ ] Add gameplay screenshots and demonstrations.
+- [ ] Improve project documentation.
+- [ ] Add further gameplay improvements.
 
-## 📜 License
+## 👨‍💻 Developer
 
-No license has been selected for this project yet. Add a `LICENSE` file
-before allowing reuse, redistribution, or modification under explicit
-terms.
+### M.JAHANARA
 
-------------------------------------------------------------------------
+Software Developer | Python Developer
 
-::: {align="center"}
-**SQUARE** · Think in pixels. Move in neon.
+Developed with Python ❤️
 
-`<sub>`{=html}Created by
-`<a href="https://github.com/M-JAHANARA">`{=html}M.JAHANARA`</a>`{=html}`</sub>`{=html}
+---
 
-`<img src="https://komarev.com/ghpvc/?username=M-JAHANARA&label=README%20VIEWS&color=2DEBEF&style=flat" alt="Profile view counter" />`{=html}
-:::
+<div align="center">
+
+### ⭐ Thanks for Visiting!
+
+If you find this project interesting, consider giving it a star.
+
+**LET'S BUILD SOMETHING FUN.**
+
+<sub>© M.JAHANARA — Square Game</sub>
+
+</div>
